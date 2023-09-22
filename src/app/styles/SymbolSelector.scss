@@ -1,0 +1,29 @@
+.ElementoEnLista{
+    // No tocar
+    .InputNumero{
+        // No tocar
+        position: relative;
+        .SymbolSelector{
+            margin-left: 6px; // Acomode con el elemento anterior
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: none;
+            font-size: 10px;
+            button{
+                background-color: transparent;
+                border: none;
+                box-shadow: none;
+                height: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

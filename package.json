@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css": "sass ./src/app/input.scss ./src/app/output.css"
   },
   "dependencies": {
     "@types/node": "20.6.0",
@@ -15,8 +16,12 @@
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.17.0",
+    "react-dom": "^18.2.0",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.66.1"
   }
 }

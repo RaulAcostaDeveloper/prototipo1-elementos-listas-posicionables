@@ -1,0 +1,35 @@
+.ElementoEnLista{
+    // No tocar
+    .InputTexto{
+        height: 100%;
+        width: 115px; // anchura del elemento
+        @include small {
+            // width: 100px; // anchura del elemento
+        }
+        :hover {
+            -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+        }
+        textarea{
+            padding-left: 3px;
+            padding-right: 3px;
+            font-size: 10px;
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            resize: none; // quita el elemento del textarea que sirve para re dimencionar el tamaño a voluntad
+        }
+        textarea::-webkit-scrollbar-thumb {
+            display: none;
+        }
+        textarea::-webkit-scrollbar-track {
+            display: none;
+        }
+        textarea::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+}

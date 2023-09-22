@@ -1,0 +1,9 @@
+.ElementoEnLista{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 55px; // altura del elemento
+    @include small {
+        height: 75px; // altura del elemento
+    }
+}
